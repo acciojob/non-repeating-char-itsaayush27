@@ -9,7 +9,8 @@ function firstNonRepeatedChar(str) {
       return char;
     }
   }
-  return "";   // <--- returns empty string if nothing found
+  return null;
+	// <--- returns empty string if nothing found
 }
 
 const input = prompt("Enter a string");
